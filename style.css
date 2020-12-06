@@ -3,6 +3,8 @@
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
 
 }
+.herotag{
+    font-family: 'Teko', sans-serif;    }
 header{
     background-color: white;
     display: flex;
