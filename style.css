@@ -1,0 +1,84 @@
+
+.bodytext{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+
+}
+header{
+    background-color: white;
+    display: flex;
+    /* outline: 1px solid; */
+    height: 70px;
+    
+}
+.logo{
+    width: 25%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.mylogo{
+    height: 45px;
+}
+.fourlinks{
+    width: 80%;
+   justify-content: flex-end;
+   /* outline: 1px solid; */
+   margin-right: 30px;
+}
+.flex-Container{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.left{
+    float: left;
+    width: 30%;
+}
+.right{
+    float: left;
+    width: 70%;
+}
+section{
+    height: 500px;
+    background-color: #e1f3eb;
+    background-image: url(images/hero.png);
+   
+}
+
+
+.inline-block{
+    padding: 20px; 
+    
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+
+
+
+.getincontact{
+    padding:50px;
+    margin-top: 20px;
+}
+
+.social{
+    
+    display: inline-block;
+}
+
+.slinks{
+    padding: 40px;
+    display: inline-block;
+}
+footer{
+   text-align: center;
+    background-color: white;
+    /* outline: 1px red solid; */
+}
+.copyright{
+    padding: 10px;
+    background-color: #e1f3eb;
+    
+}
