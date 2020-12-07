@@ -1,4 +1,7 @@
-
+.flex-Container{
+    display: flex;
+    align-items: center;
+}
 .helvetica{
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
 }
@@ -10,17 +13,14 @@
     font-family: 'Notable', sans-serif;
 }
 .teko{
-    font-family: 'Teko', sans-serif, normal;    }
-.mteko{
-    font-family: 'Teko', sans-serif, medium;    
-    font-size: 20px;
+    font-family: 'Teko', sans-serif, normal;   
 }
+
 header{
     background-color: white;
     display: flex;
     /* outline: 1px solid; */
     height: 70px;
-    
 }
 .logo{
     width: 25%;
@@ -36,19 +36,33 @@ header{
    /* outline: 1px solid; */
    margin-right: 30px;
 }
-
-
-.flex-Container{
-    display: flex;
-    align-items: center;
+.fourlinks a{
+    color:black;
+    font-family: 'Teko', sans-serif, medium;    
+    font-size: 20px;
+    text-decoration: none;
 }
+
+/* ------------hero area----------------- */
 .left{
     float: left;
     width: 30%;
-    padding-left: 220px;
-  
-    /* outline: 1px red solid; */
+    padding-left: 250px;
 }
+  
+.herotag{
+    font-size: 60px;
+    color: #adadad;
+}
+
+.inline-block{
+    padding: 25px; 
+}
+
+.logo{
+    margin-left: 50px;
+}
+
 .bold{
     font-weight: bold;
 }
@@ -65,8 +79,11 @@ header{
 }
 .hero{
     height: 500px;
+    width: 100%;
     background-color: #e1f3eb;
     background-image: url(images/hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .rectangle{
     height: 5px;
@@ -74,29 +91,14 @@ header{
     background-color: white;
 }
 
+/* -----------------------content area------------------- */
 .content{
     height: 400px;
     text-align: center;
 }
 
 
-.herotag{
-    font-size: 60px;
-    color: #adadad;
-}
-
-.inline-block{
-    padding: 25px; 
-    
-}
-
-.logo{
-    margin-left: 50px;
-}
-
-
-
-
+/* -----------------footer area---------------- */
 .getincontact{
     font-size: 60px;
     color: #9cccb7;
@@ -110,8 +112,7 @@ header{
 
 .slinks{
     padding: 20px;
-    display: inline-block;
-    
+    display: inline-block; 
 }
 footer{
    text-align: center;
@@ -123,10 +124,7 @@ footer{
     outline: 1px yellow solid;
     height: 20px;
 }
-
-
 .copyright{
     padding: 10px;
     background-color: #e1f3eb;
-    
 }
